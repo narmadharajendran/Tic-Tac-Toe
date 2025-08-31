@@ -1,0 +1,40 @@
+.tic-tac-toe{
+    &-content{
+        height: 100%;
+        margin: auto;
+
+    }
+    &-board-container{
+        display: flex;
+        gap: 2rem;
+        // height: 300px;
+       
+        .board-history{
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5rem;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            overflow: auto;
+            padding: 1rem;
+            max-height: 300px;
+
+            .ui-button{
+                flex:0 0 auto;
+            }
+        }
+        
+    }
+    &-result-text{
+        margin-bottom: 1rem;
+    }
+    @media (max-width: 576px) {
+        &-board-container{
+            flex-direction: column;
+
+            .board-history{
+                max-height: 225px;
+            }
+        }
+    }
+}

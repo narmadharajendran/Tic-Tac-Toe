@@ -1,0 +1,21 @@
+.page-container{
+    .instruction-text{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .buttons-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+        margin: 1rem;
+
+        .ui-button{
+            width: 100%;
+        }
+    }
+}

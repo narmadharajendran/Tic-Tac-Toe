@@ -1,0 +1,18 @@
+:root{
+    --ui-button-background-color: rgba(59, 115, 242, 1.0);
+    --ui-button-padding: 8px 16px;
+    --ui-button-text-color: #fff;
+    --ui-button-radius: 2rem;
+    --ui-button-font-weight: bold;
+    --ui-button-font-size: 16px;
+    --ui-button-margin-bottom: 8px;
+}
+    
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
