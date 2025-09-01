@@ -3,6 +3,10 @@
 A simple and interactive Tic Tac Toe game built with React.js and JavaScript.
 This project demonstrates React fundamentals such as components, state management, props, and event handling while delivering a fun, classic game experience.
 
+
+## 🚀 Live Demo
+[![View Demo](https://img.shields.io/badge/Demo-View%20Here-blue?style=for-the-badge)](https://narmadharajendran.github.io/Tic-Tac-Toe)
+
 # Features
 
 Two-player gameplay (X and O)
