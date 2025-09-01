@@ -8,7 +8,7 @@ const RouterComponent = () =>{
     return(
         <Routes>
             <Route path="/" element={<Navigate to="/Home" replace />} />
-            <Route path="/Home" element={<Home />} />
+            <Route path="/Home" element={<div>Home</div>} />
             <Route path="/Single-player" element={<SinglePlayer />} />
             <Route path="/Multi-player" element={<MultiplePlayer />} />
         </Routes>
