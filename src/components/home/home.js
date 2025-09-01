@@ -1,6 +1,6 @@
 import React from "react"
 import "./home.styles.scss"
-import { useNavigate } from "react-router"
+import { useNavigate } from "react-router-dom";
 import TicTacToe from "../../assets/tic-tac-toe.png";
 
 const Home = (props) =>{

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import TicTacToe from "../../pages/tic-tac-toe";
 import Header from "../header/header";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 const MultiplePlayer = () =>{
     const childRef = useRef();

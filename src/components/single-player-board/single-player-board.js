@@ -2,7 +2,7 @@ import { useRef } from "react"
 import TicTacToe from "../../pages/tic-tac-toe"
 import "./single-player-board.scss"
 import Header from "../header/header";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 const SinglePlayer = () =>{
     const childRef = useRef();
